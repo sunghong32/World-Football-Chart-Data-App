@@ -50,7 +50,7 @@ func crawl(){
             }
         }
         
-        print(TeamInfoArray)
+        print(TeamInfoArray[7])
 
     } catch Exception.Error(let type, let message) {
         print("Message: \(message)")
