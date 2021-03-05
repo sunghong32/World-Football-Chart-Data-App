@@ -6,6 +6,7 @@
 //
 
 struct TeamInfo {
+    var logoURL : String? = ""
     var name : String = ""
     var game : String = ""
     var win : String = ""

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6510318525F081B9007856CB /* PLTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6510318425F081B9007856CB /* PLTableCell.swift */; };
 		651AC03525ECB11B00E8C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AC03425ECB11B00E8C14C /* AppDelegate.swift */; };
 		651AC03725ECB11B00E8C14C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AC03625ECB11B00E8C14C /* SceneDelegate.swift */; };
 		651AC03925ECB11B00E8C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AC03825ECB11B00E8C14C /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2C1C9C4436940666F9FBE9E2 /* Pods_MySports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6510318425F081B9007856CB /* PLTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLTableCell.swift; sourceTree = "<group>"; };
 		651AC03125ECB11B00E8C14C /* MySports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySports.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651AC03425ECB11B00E8C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651AC03625ECB11B00E8C14C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				651AC03D25ECB11E00E8C14C /* Assets.xcassets */,
 				651AC03F25ECB11E00E8C14C /* LaunchScreen.storyboard */,
 				651AC04225ECB11E00E8C14C /* Info.plist */,
+				6510318425F081B9007856CB /* PLTableCell.swift */,
 			);
 			path = MySports;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				651AC03925ECB11B00E8C14C /* ViewController.swift in Sources */,
 				651AC03525ECB11B00E8C14C /* AppDelegate.swift in Sources */,
 				651AC03725ECB11B00E8C14C /* SceneDelegate.swift in Sources */,
+				6510318525F081B9007856CB /* PLTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -351,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
