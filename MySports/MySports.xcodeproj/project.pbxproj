@@ -55,6 +55,7 @@
 				A006593C70160BCD56898816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		651AC03225ECB11B00E8C14C /* Products */ = {
 			isa = PBXGroup;

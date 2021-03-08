@@ -85,6 +85,7 @@ func crawlPL(){
             }
             if i % 14 == 2{
                 teamInfoArray[i/14].name = try plInfo[i].text()
+                teamInfoArray[i/14].name = String(teamInfoArray[i/14].name.dropLast(3))
             } else if i % 14 == 3 {
                 teamInfoArray[i/14].game = try plInfo[i].text()
             } else if i % 14 == 4 {
